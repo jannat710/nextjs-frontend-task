@@ -20,7 +20,7 @@ const Disscussion = () => {
                     <div>
                         <div className="flex items-center gap-5">
                             <h1 className="text-lg font-semibold py-2">lorem Ipsum</h1>
-                            <button className="bg-blue-700 text-sm px-2 text-white rounded-full ">Sector 2</button>
+                            <button className="bg-blue-800 text-sm px-2 text-white rounded-full ">Sector 2</button>
                         </div>
                         <p className="text-justify text-sm py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod commodo lectus, id ullamcorper orci ultrices vel. Ut nec enim vitae turpis consequat bibendum id id velit.</p>
                         <div className="flex justify-between text-sm font-semibold">
@@ -42,7 +42,7 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-24 text-right"><p className="text-blue-700 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
             {/* 2nd div */}
@@ -58,7 +58,7 @@ const Disscussion = () => {
                     <div>
                         <div className="flex items-center gap-5">
                             <h1 className="text-lg font-semibold py-2">lorem Ipsum</h1>
-                            <button className="bg-blue-700 text-sm px-2 text-white rounded-full ">Sector 2</button>
+                            <button className="bg-blue-800 text-sm px-2 text-white rounded-full ">Sector 2</button>
                         </div>
                         <p className="text-justify text-sm py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod commodo lectus, id ullamcorper orci ultrices vel. Ut nec enim vitae turpis consequat bibendum id id velit.</p>
                         <div className="flex justify-between text-sm font-semibold">
@@ -80,7 +80,7 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-24 text-right"><p className="text-blue-700 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
             {/* 3rd div */}
@@ -96,7 +96,7 @@ const Disscussion = () => {
                     <div>
                         <div className="flex items-center gap-5">
                             <h1 className="text-lg font-semibold py-2">lorem Ipsum</h1>
-                            <button className="bg-blue-700 text-sm px-2 text-white rounded-full ">Sector 2</button>
+                            <button className="bg-blue-800 text-sm px-2 text-white rounded-full ">Sector 2</button>
                         </div>
                         <p className="text-justify text-sm py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod commodo lectus, id ullamcorper orci ultrices vel. Ut nec enim vitae turpis consequat bibendum id id velit.</p>
                         <div className="flex justify-between text-sm font-semibold">
@@ -118,7 +118,7 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-24 text-right"><p className="text-blue-700 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
             {/* 4th div */}
@@ -134,7 +134,7 @@ const Disscussion = () => {
                     <div>
                         <div className="flex items-center gap-5">
                             <h1 className="text-lg font-semibold py-2">lorem Ipsum</h1>
-                            <button className="bg-blue-700 text-sm px-2 text-white rounded-full ">Sector 2</button>
+                            <button className="bg-blue-800 text-sm px-2 text-white rounded-full ">Sector 2</button>
                         </div>
                         <p className="text-justify text-sm py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod commodo lectus, id ullamcorper orci ultrices vel. Ut nec enim vitae turpis consequat bibendum id id velit.</p>
                         <div className="flex justify-between text-sm font-semibold">
@@ -156,7 +156,7 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-24 text-right"><p className="text-blue-700 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
         </div>
