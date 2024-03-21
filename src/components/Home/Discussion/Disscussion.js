@@ -6,7 +6,7 @@ import { IoShareSocialOutline } from "react-icons/io5";
 const Disscussion = () => {
     return (
         <div>
-            <h1 className="text-2xl pl-5 text-red-600 font-bold bg-gray-100 my-2">Disscussion Form</h1>
+            <h1 className="text-2xl pl-5 text-red-600 font-bold bg-gray-100 my-2">Disscussion Forum</h1>
             {/* 1st div */}
             <div className="p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-10">
                 <div className="flex gap-5">
