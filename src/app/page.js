@@ -4,7 +4,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='w-11/12 mx-auto'>
       {/* <h1>Welcome</h1> */}
       <SideMenu></SideMenu>
       <Home></Home>

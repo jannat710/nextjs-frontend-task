@@ -2,8 +2,8 @@
 
 const SideMenu = () => {
     return (
-        <div className="bg-">
-            
+        <div className="">
+           
             Sidemenu
         </div>
     );
