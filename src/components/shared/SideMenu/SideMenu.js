@@ -2,7 +2,9 @@
 import { useState } from 'react';
 import { BiSolidRightArrow } from "react-icons/bi";
 import { TiUser } from "react-icons/ti";
-import { BiSolidBell } from "react-icons/bi";
+import { BiSolidBell, BiSolidCommentDetail } from "react-icons/bi";
+import { HiCurrencyDollar } from "react-icons/hi2";
+
 
 
 const SideMenu = () => {
@@ -27,8 +29,15 @@ const SideMenu = () => {
                             <BiSolidBell />
 
                         </div>
-                        <p className='text-sm text-white py-5 pl-5'>Discussion Forum</p>
-                        <p className='text-sm text-white pb-5 pl-5'>Market Stories</p>
+                        <div className='flex justify-start items-center pl-5 gap-2 pt-5'>
+                            <BiSolidCommentDetail className='text-xl text-white' />
+                            <p className='text-sm text-white'>Discussion Forum</p>
+
+                        </div>
+                        <div className='flex justify-start items-center pl-5 gap-2 py-5'>
+                            <HiCurrencyDollar className='text-xl text-white'/>
+                            <p className='text-sm text-white'>Market Stories</p>
+                        </div>
                         <p className='text-sm text-white pb-5 pl-5'>Sentiment</p>
                         <p className='text-sm text-white pb-5 pl-5'>Market</p>
                         <p className='text-sm text-white pb-5 pl-5'>Sector</p>
