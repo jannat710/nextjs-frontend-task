@@ -16,13 +16,13 @@ const SideMenu = () => {
 
     return (
         <div>
-            <div className="flex justify-center">
+            <div className="flex justify-center fixed md:static lg:static">
                 {isSideMenuDivVisible && (
                     <div className="bg-blue-900 w-52 h-screen">
                         <div className='flex justify-between p-5 border-b text-white items-center text-2xl'>
                             <div className='flex justify-start items-center gap-2'>
                                 <TiUser />
-                                <p className='text-sm'>Hello, User</p>
+                                <p className='text-lg'>Hello, User</p>
 
                             </div>
 
@@ -31,25 +31,27 @@ const SideMenu = () => {
                         </div>
                         <div className='flex justify-start items-center pl-5 gap-2 pt-5'>
                             <BiSolidCommentDetail className='text-xl text-white' />
-                            <p className='text-sm text-white'>Discussion Forum</p>
+                            <p className='text-base text-white'>Discussion Forum</p>
 
                         </div>
                         <div className='flex justify-start items-center pl-5 gap-2 py-5'>
-                            <HiCurrencyDollar className='text-xl text-white'/>
-                            <p className='text-sm text-white'>Market Stories</p>
+                            <HiCurrencyDollar className='text-xl text-white' />
+                            <p className='text-base text-white'>Market Stories</p>
                         </div>
-                        <p className='text-sm text-white pb-5 pl-5'>Sentiment</p>
-                        <p className='text-sm text-white pb-5 pl-5'>Market</p>
-                        <p className='text-sm text-white pb-5 pl-5'>Sector</p>
-                        <p className='text-sm text-white pb-5 pl-5 '>Watchlist</p>
-                        <p className='text-sm text-white pb-5 pl-5'>Events</p>
-                        <p className='text-sm text-white pb-5 pl-5'>News/Interview</p>
+                        <p className='text-base text-white pb-5 pl-5'>Sentiment</p>
+                        <p className='text-base text-white pb-5 pl-5'>Market</p>
+                        <p className='text-base text-white pb-5 pl-5'>Sector</p>
+                        <p className='text-base text-white pb-5 pl-5 '>Watchlist</p>
+                        <p className='text-base text-white pb-5 pl-5'>Events</p>
+                        <p className='text-base text-white pb-5 pl-5'>News/Interview</p>
                     </div>
                 )}
-                <BiSolidRightArrow
-                    className="text-white bg-blue-900 h-24 cursor-pointer"
-                    onClick={toggleSideMenuDivVisibility}
-                />
+                <div className='bg-gray-300 h-screen flex items-center justify-center'>
+                    <BiSolidRightArrow
+                        className="text-white bg-blue-900 h-32  cursor-pointer"
+                        onClick={toggleSideMenuDivVisibility}
+                    />
+                </div>
             </div>
         </div>
     );

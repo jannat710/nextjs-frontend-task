@@ -4,10 +4,8 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className='w-11/12 mx-auto border-t-2 border-gray-300 flex'>
-      {/* <h1>Welcome</h1> */}
-      <SideMenu></SideMenu>
-      <Home></Home>
+    <div className='container mx-auto border-t-2 border-gray-300 py-5'>
+          <Home></Home>
     </div>
   );
 };

@@ -4,8 +4,7 @@ import Image from "next/image";
 const Stories = () => {
     return (
 
-        <div className="w-1/3 mx-auto">
-            <h1 className="text-2xl text-red-600 font-bold bg-gray-100 my-2 pl-5">Disscussion Form</h1>
+        <div className="w-full md:w-1/3 mx-auto">
             {/* 1st story */}
             <div className="rounded-md mb-10">
                 <div className="">
@@ -13,7 +12,7 @@ const Stories = () => {
                         alt="profile"
                         height={500}
                         width={500}
-                        className="h-[20vh] w-full mx-auto"
+                        className="h-[30vh] w-full mx-auto"
                         src='https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg?w=826&t=st=1711042831~exp=1711043431~hmac=0e6fac2ebf6ce2dfd08db9ab4376d76e157fc809de6c17ac5532dd7f70555b96'
                     />
                     <div className="border-x-2 border-gray-100 p-5">
@@ -29,7 +28,7 @@ const Stories = () => {
                         alt="profile"
                         height={500}
                         width={500}
-                        className="h-[20vh] w-full mx-auto"
+                        className="h-[30vh] w-full mx-auto"
                         src='https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg?w=826&t=st=1711042831~exp=1711043431~hmac=0e6fac2ebf6ce2dfd08db9ab4376d76e157fc809de6c17ac5532dd7f70555b96'
                     />
                     <div className="border-x-2 border-gray-100 p-5">
@@ -45,7 +44,7 @@ const Stories = () => {
                         alt="profile"
                         height={500}
                         width={500}
-                        className="h-[20vh] w-full mx-auto"
+                        className="h-[30vh] w-full mx-auto"
                         src='https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg?w=826&t=st=1711042831~exp=1711043431~hmac=0e6fac2ebf6ce2dfd08db9ab4376d76e157fc809de6c17ac5532dd7f70555b96'
                     />
                     <div className="border-x-2 border-gray-100 p-5">
@@ -54,7 +53,7 @@ const Stories = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };

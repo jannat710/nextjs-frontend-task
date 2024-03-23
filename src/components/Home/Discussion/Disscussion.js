@@ -5,11 +5,10 @@ import { IoShareSocialOutline } from "react-icons/io5";
 
 const Disscussion = () => {
     return (
-        <div>
-            <h1 className="text-2xl pl-5 text-red-600 font-bold bg-gray-100 my-2">Disscussion Forum</h1>
+        <div className="">
             {/* 1st div */}
-            <div className="p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-10">
-                <div className="flex gap-5">
+            <div className=" p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-24">
+                <div className="flex gap-1 md:gap-5">
                     <Image
                         alt="profile"
                         height={500}
@@ -42,12 +41,12 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-left"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
             {/* 2nd div */}
-            <div className="p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-10">
-                <div className="flex gap-5">
+            <div className=" p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-24">
+                <div className="flex gap-1 md:gap-5">
                     <Image
                         alt="profile"
                         height={500}
@@ -80,12 +79,12 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-left"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
             {/* 3rd div */}
-            <div className="p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-10">
-                <div className="flex gap-5">
+            <div className=" p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-24">
+                <div className="flex gap-1 md:gap-5">
                     <Image
                         alt="profile"
                         height={500}
@@ -118,12 +117,12 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-left"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
             {/* 4th div */}
-            <div className="p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-10">
-                <div className="flex gap-5">
+            <div className=" p-2 border-b-4 border-r-4 border-t rounded-md border-gray-300 px-5 mb-24">
+                <div className="flex gap-1 md:gap-5">
                     <Image
                         alt="profile"
                         height={500}
@@ -156,7 +155,7 @@ const Disscussion = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-32 text-right"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
+                    <div className="w-32 text-left"><p className="text-blue-800 font-semibold text-sm">2 min ago</p></div>
                 </div>
             </div>
         </div>
