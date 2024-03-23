@@ -4,12 +4,12 @@ import { BiSolidRightArrow } from "react-icons/bi";
 import { TiUser } from "react-icons/ti";
 import { BiSolidBell, BiSolidCommentDetail } from "react-icons/bi";
 import { HiCurrencyDollar } from "react-icons/hi2";
+import { TiArrowSortedDown } from "react-icons/ti";
 
 
 
 const SideMenu = () => {
     const [isSideMenuDivVisible, setIsSideMenuDivVisible] = useState(false);
-
     const toggleSideMenuDivVisibility = () => {
         setIsSideMenuDivVisible(!isSideMenuDivVisible);
     };
@@ -29,9 +29,10 @@ const SideMenu = () => {
                             <BiSolidBell />
 
                         </div>
-                        <div className='flex justify-start items-center pl-5 gap-2 pt-5'>
+                        <div className='flex justify-start items-center pl-5 gap-2 mt-1 py-2 bg-blue-950'>
                             <BiSolidCommentDetail className='text-xl text-white' />
                             <p className='text-base text-white'>Discussion Forum</p>
+                            <TiArrowSortedDown  className='text-white'/>
 
                         </div>
                         <div className='flex justify-start items-center pl-5 gap-2 py-5'>

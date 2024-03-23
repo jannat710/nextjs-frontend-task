@@ -4,7 +4,7 @@ import Image from "next/image";
 const Stories = () => {
     return (
 
-        <div className="w-full md:w-1/3 mx-auto">
+        <div className="w-full mx-auto">
             {/* 1st story */}
             <div className="rounded-md mb-10">
                 <div className="">
